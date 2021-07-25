@@ -5,6 +5,6 @@ services:
     image: crackair/xrayr:latest
     volumes:
       - ./config:/etc/XrayR/ # 映射配置文件夹
-      - /etc/nginx/ssl:/ec/XrayR/ssl
+      - /etc/nginx/ssl:/etc/XrayR/ssl
     restart: always
     network_mode: host
