@@ -2,7 +2,7 @@ version: '3'
 services: 
   xrayr: 
     container_name: xrayr
-    image: crackair/xrayr:latest
+    image: hoshinoneko/xrayr:latest
     volumes:
       - ./config:/etc/XrayR/ # 映射配置文件夹
       - /etc/nginx/ssl:/etc/XrayR/ssl
